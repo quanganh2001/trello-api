@@ -5,7 +5,7 @@
  */
 import Joi from 'joi'
 import { StatusCodes } from 'http-status-codes'
-import ApiError from '~/utils/apiError'
+import ApiError from '~/utils/ApiError'
 
 const createNew = async (req, res, next) => {
   /**
